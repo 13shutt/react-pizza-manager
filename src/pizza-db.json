@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "The Big Fucking Pizza",
+    "img": "1.png",
+    "contains": "Whole-wheat (pizza) base with ground tomatoes, mozzarella, basil",
+    "time": "13",
+    "price": "165"
+  },
+  {
+    "id": 2,
+    "name": "Tenerezza pizza",
+    "img": "2.png",
+    "contains": "Whole-wheat (pizza) base, spinach, cynara, pickled pepper. Decorated with orange and arugula. Served with Balsamic cream",
+    "time": "15",
+    "price": "150"
+  },
+  {
+    "id": 3,
+    "name": "Siciliano pizza",
+    "img": "3.png",
+    "contains": "Ground tomatoes, mozzarella, salami Milano",
+    "time": "17",
+    "price": "170"
+  },
+  {
+    "id": 4,
+    "name": "Pizza Cotto Bene",
+    "img": "4.png",
+    "contains": "Ground tomatoes, mozzarella, spicy salami 'Pepperoni'",
+    "time": "10",
+    "price": "110"
+  },
+  {
+    "id": 5,
+    "name": "Milano",
+    "img": "5.png",
+    "contains": "Ground tomatoes, marinated spicy eggplant by homemade Italian recipe, salami Pepperoni, mozzarella and Parmesan cheese",
+    "time": "15",
+    "price": "140"
+  },
+  {
+    "id": 6,
+    "name": "Pizza Vegana",
+    "img": "6.png",
+    "contains": "Ground tomatoes, mozzarella, salami picante (spicy), hot pepper",
+    "time": "11",
+    "price": "130"
+  },
+  {
+    "id": 7,
+    "name": "Margherita",
+    "img": "7.png",
+    "contains": "A wholewheat pizza topped with mozzarella, chicken, honey marinated pear, Gorgonzola, and Parmesan cheese",
+    "time": "13",
+    "price": "155"
+  },
+  {
+    "id": 8,
+    "name": "Pepperoni",
+    "img": "8.png",
+    "contains": "A wholewheat pizza topped with mozzarella, beef, pickled cucumbers, red onion, and the Barbecue sauce. Garnished with strips of bacon",
+    "time": "16",
+    "price": "145"
+  },
+  {
+    "id": 9,
+    "name": "Diavola",
+    "img": "9.png",
+    "contains": "Whole wheat pizza topped with ground tomatoes, mozzarella, ricotta, prosciutto cotto, oregano, basil, and almond flakes",
+    "time": "12",
+    "price": "135"
+  }
+]
