@@ -18,19 +18,19 @@ class Pizza extends Component {
 
   render() { 
     return (
-      <div className="card">
-        <h5 className="title">{this.props.title}</h5>
+      <div className="card effect8">
+        <h5 className="title bigger">{this.props.title}</h5>
         <img src={ require(`../../img/pizza/${this.props.img}`) } alt="pezdos"/>
         <div className="data">
-          <span className="time-left">{this.props.time}</span>
-          <span className="price">{this.props.price}</span>
-          <span>
-            <button onClick={this.pizzaAmountMinus} className={this.state.counter === 0 ? "disabled" : "enabled"}>-</button>
-            <span className="count">{this.state.counter}</span>
-            <button onClick={this.pizzaAmountPlus}>+</button>
+          <span className="time-left title">{this.props.time} min</span>
+          <span className="price title">{this.props.price} UAH</span>
+          <span className="count-items">
+            <button onClick={this.pizzaAmountMinus} className={this.state.counter === 0 ? "disabled-btn" : "minus-btn"}>-</button>
+            <span className="count title">{this.state.counter}</span>
+            <button onClick={this.pizzaAmountPlus} className="plus-btn">+</button>
           </span>
         </div>
-        <span className="contains">{this.props.contains}</span>
+        <span className="contains decript">{this.props.contains}</span>
       </div>
     );
   }

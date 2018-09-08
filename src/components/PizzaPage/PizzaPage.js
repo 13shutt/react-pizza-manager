@@ -5,10 +5,14 @@ import Order from '../Order/Order';
 import PizzaDB from '../../pizza-db.json'
 
 const PizzaPage = () => {
-  console.log(PizzaDB)
+
+  const showOrder = () => {
+    document.querySelector('.order').classList.remove('hide')
+  }
+
   return (
-    <section>
-      <button className="order-btn">Make Order</button>
+    <section className="card-5">
+      <button className="order-btn make-order title" onClick={showOrder}>Make Order</button>
       <Order />
       <div className="pizza-plate">
         {PizzaDB.map(item => <Pizza 
