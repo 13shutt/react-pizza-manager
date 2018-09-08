@@ -74,3 +74,62 @@ section {
   pointer-events: none;
   background-color: grey;
 }
+
+.order {
+  position: absolute;
+  height: 211%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.order-card {
+  margin-top: 50px;
+  border: 3px solid rgba(0,0,0,0.25);
+  border-radius: 10px;
+  padding: 5px;
+  width: 500px;
+  background-color: white;
+}
+
+.order-title {
+  text-align: center;
+}
+
+.element {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.order-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.order-info * {
+  margin: 0 5px 0 5px;
+}
+
+.order-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.order-btns * {
+  margin: 0 10px 0 10px;
+}
+
+.summary {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.summary * {
+  margin: 0 25px 0 25px;
+}
