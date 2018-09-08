@@ -11,7 +11,8 @@
 	font-weight:bold;
 	padding:3px 6px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #5b8a3c;
+  text-shadow:0px 1px 0px #5b8a3c;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 .plus-btn:hover {
 	background-color:#72b352;
@@ -32,7 +33,8 @@
 	font-size:13px;
 	font-weight:bold;
 	padding:3px 8px;
-	text-decoration:none;
+  text-decoration:none;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 .minus-btn:hover {
 	background-color:#eb675e;
@@ -56,7 +58,8 @@
 	font-weight:bold;
 	padding:3px 8px;
 	text-decoration:none;
-	text-shadow:0px -1px 0px #2b665e;
+  text-shadow:0px -1px 0px #2b665e;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 .disabled-btn:hover {
 	background-color:#6c7c7c;
@@ -84,7 +87,8 @@
 	font-weight:bold;
 	padding:7px 16px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #81c784;
+  text-shadow:0px 1px 0px #81c784;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 .ok-btn:hover {
 	background-color:#81c784;
@@ -108,7 +112,8 @@
 	font-weight:bold;
 	padding:4px 18px;
 	text-decoration:none;
-	text-shadow:0px -1px 38px #2b665e;
+  text-shadow:0px -1px 38px #2b665e;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 .make-order:hover {
 	background-color:#6c7c7c;
@@ -139,6 +144,7 @@ header {
   align-items: center;
   height: 60px;
   background: #388E3C;
+  border-bottom: 2px solid #2e7d32;
 }
 
 .order-btn {
@@ -283,7 +289,7 @@ section {
 #timer {
   font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: 25px;
-  letter-spacing: 2.6px;
+  letter-spacing: 2px;
   word-spacing: 1.8px;
   color: #FFFFFF;
   font-weight: 400;
@@ -304,6 +310,7 @@ section {
   font-style: normal;
   font-variant: small-caps;
   text-transform: none;
+  cursor: pointer;
 }
 
 .title {
