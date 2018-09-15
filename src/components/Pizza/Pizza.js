@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import { connect } from 'react-redux'
 class Pizza extends Component {
   constructor(props) {
     super(props);
@@ -10,13 +10,14 @@ class Pizza extends Component {
   
   pizzaAmountPlus = () => {
     this.setState({ counter: this.state.counter + 1 })
+    this.props.onAddPizza(this.props.title, this.props.time, this.props.price)
   }
 
   pizzaAmountMinus = () => {
     this.setState({ counter: this.state.counter - 1 })
   }
 
-  render() { 
+  render() {
     return (
       <div className="card effect8">
         <h5 className="title bigger">{this.props.title}</h5>
@@ -36,4 +37,13 @@ class Pizza extends Component {
   }
 }
  
-export default Pizza;
+export default connect(
+  state => ({
+    currentStore: state
+  }),
+  dispatch => ({
+    onAddPizza: (name, time, price) => {
+      dispatch({type: 'ADD_PIZZA', payload: {title: name, time: time, price: price}})
+    }
+  })
+)(Pizza)
