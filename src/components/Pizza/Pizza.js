@@ -15,6 +15,8 @@ class Pizza extends Component {
 
   pizzaAmountMinus = () => {
     this.setState({ counter: this.state.counter - 1 })
+    this.props.onRemovePizza(this.props.title)
+    console.log(this.props.title)
   }
 
   render() {
@@ -44,6 +46,9 @@ export default connect(
   dispatch => ({
     onAddPizza: (name, time, price) => {
       dispatch({type: 'ADD_PIZZA', payload: {title: name, time: time, price: price}})
+    },
+    onRemovePizza: (name) => {
+      dispatch({type: 'REMOVE_PIZZA', payload: name})
     }
   })
 )(Pizza)
