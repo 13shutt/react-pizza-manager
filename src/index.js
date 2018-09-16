@@ -5,7 +5,9 @@ import App from './App';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 
-const store = createStore(pizzaList)
+const REDUX_DEVTOOLS = window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+
+const store = createStore(pizzaList, REDUX_DEVTOOLS)
 
 function pizzaList(state = [], action) {
   switch(action.type) {
