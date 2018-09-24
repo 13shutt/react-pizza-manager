@@ -52,7 +52,7 @@ class Order extends Component {
  
 export default connect(
   state => ({
-    currentStore: state
+    currentStore: state.pizzaList
   }),
   dispatch => ({})
 )(Order)

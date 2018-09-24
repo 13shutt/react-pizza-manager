@@ -1,8 +1,8 @@
 import React from 'react'
 
-import Pizza from '../Pizza/Pizza'
-import Order from '../Order/Order';
-import PizzaDB from '../../pizza-db.json'
+import Pizza from './Pizza'
+import Order from './Order';
+import PizzaDB from '../pizza-db.json'
 
 const PizzaPage = () => {
 

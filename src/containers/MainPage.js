@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Header from '../Header/Header';
-import PizzaPage from '../PizzaPage/PizzaPage';
+import Header from './Header';
+import PizzaPage from './PizzaPage';
 
 const MainPage = () => {
   return (

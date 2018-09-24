@@ -23,7 +23,7 @@ class Pizza extends Component {
     return (
       <div className="card effect8">
         <h5 className="title bigger">{this.props.title}</h5>
-        <img src={ require(`../../img/pizza/${this.props.img}`) } alt="pezdos"/>
+        <img src={ require(`../img/pizza/${this.props.img}`) } alt="pezdos"/>
         <div className="data">
           <span className="time-left title">{this.props.time} min</span>
           <span className="price title">{this.props.price} UAH</span>
